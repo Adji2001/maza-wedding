@@ -85,7 +85,7 @@ body {
     padding-bottom: 5rem;
 }
 
-.home h2, .info h2, .story h2, .gallery h2 {
+.home h2, .info h2, .story h2, .gallery h2, .rsvp h2, .gifts h2 {
     color: var(--pink);
     font-family: 'Sacramento', cursive;
     font-size: 5rem;
@@ -134,7 +134,7 @@ body {
     color: var(--pink);
 }
 
-.info {
+.info, .rsvp {
     background-color: var(--bg);
     color: white;
     padding-top: 10rem;
@@ -177,12 +177,12 @@ body {
     background-color: rgb(255, 232, 242);
 }
 
-.story, .gallery {
+.story, .gallery, .rsvp, .gifts {
     padding-top: 10rem;
     padding-top: 8rem;
 }
 
-.story span, .gallery span {
+.story span, .gallery span, .gifts span {
     text-transform: uppercase;
     color: #666;
     font-size: 0.9rem;
@@ -191,7 +191,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.story p, .gallery p {
+.story p, .gallery p, .rsvp p, .gifts p {
     font-size: 1rem;
     font-weight: 300;
 }
@@ -294,6 +294,52 @@ body {
 
 .gallery {
     background-color: #f5f5f5;
+}
+
+.rsvp h2 {
+    font-size: 4.5rem;
+}
+
+.rsvp p {
+    color: white;
+}
+
+.rsvp from label {
+    color: white;
+}
+
+.rsvp button {
+    color: white;
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+.rsvp button:hover {
+    color: var(--pink);
+    background-color: white;
+    border: 1px solid white;
+}
+
+footer {
+    padding: 3rem;
+    background-color: var(--pink);
+    color: white;
+}
+
+footer a {
+    color: var(--bg);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
 }
 
 
